@@ -5,7 +5,7 @@ const searchTeam = () => {
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
 
-    // clear data
+    // clear data value
     searchField.value = '';
 
     // Handle empty search request
